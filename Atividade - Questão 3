@@ -1,30 +1,29 @@
 # Questão 3 - Documente os requisitos usando histórias de usuários
 
-RF1 - Tela de login
----------------------------------------------------------------------------------------
-Como cliente , eu quero pode ter uma tela de login de modo que possa entrar no sistema
+| RF1 - Tela de login                                                                    |
+|----------------------------------------------------------------------------------------|
+| Como cliente , eu quero pode ter uma tela de login de modo que possa entrar no sistema |
 
-RF2 - Gerenciamento de  Lançamento
--------------------------------------------------------------------------------------------------------------------------------------------------------
-Como funcionário , eu quero pode inserir , alterar e deletar um lançamento de evento na agenda de modo que possa gerenciar os atendimentos dos cliente
+| RF2 - Gerenciamento de  Lançamento                                                                                                                     |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Como funcionário , eu quero pode inserir , alterar e deletar um lançamento de evento na agenda de modo que possa gerenciar os atendimentos dos cliente |
 
-RF3 -  Gerenciar pessoa
--------------------------------------------------------------------------------------------------------------------------------------------------------
-Como dono da clínica , eu quero pode cadastrar, alterar e deletar  um funcionário ou cliente de modo que eu possa gerenciar os funcionários e clientes
+| RF3 -  Gerenciar pessoa                                                                                                                                |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Como dono da clínica , eu quero pode cadastrar, alterar e deletar  um funcionário ou cliente de modo que eu possa gerenciar os funcionários e clientes |
 
-RF4 -  Cadastrar um novo atendimento ou procedimento clínico
----------------------------------------------------------------------------------------------------------------------------
-Como funcionário , eu quero pode cadastrar um novo atendimento ou procedimento clínico de modo que possa atender o cliente
+| RF4 -  Cadastrar um novo atendimento ou procedimento clínico                                                               |
+|----------------------------------------------------------------------------------------------------------------------------|
+| Como funcionário , eu quero pode cadastrar um novo atendimento ou procedimento clínico de modo que possa atender o cliente |
 
-RF5 -  Alterar o histórico 
------------------------------------------------------------------------------------------------------------------------------------------------------
-Como funcionário , eu quero pode  ter uma opção para alterar o histórico anteriormente cadastrado de modo que possa corrigir algum erro no histórico
+| RF5 -  Alterar o histórico                                                                                                                           |
+|------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Como funcionário , eu quero pode  ter uma opção para alterar o histórico anteriormente cadastrado de modo que possa corrigir algum erro no histórico |
 
-RF6 -  Mover o histórico para ‘arquivo morto’ 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Como funcionário , eu quero pode  ter uma opção para mover o histórico anteriormente cadastrado para o ‘arquivo morto’ de modo que possa apenas consultar os arquivos do histórico
+| RF6 -  Mover o histórico para ‘arquivo morto’                                                                                                                                      |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Como funcionário , eu quero pode  ter uma opção para mover o histórico anteriormente cadastrado para o ‘arquivo morto’ de modo que possa apenas consultar os arquivos do histórico |
 
-RF7 -  Conexão com sistema financeiro para gerar a folha de pagamento 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Como dono da clínica , eu quero pode  ter uma opção para se conectar com o sistema financeiro a fim de gerar a folha de pagamento de modo que possa facilitar a organização e registro de valores referentes a remunerações dos funcionários 
-
+| RF7 -  Conexão com sistema financeiro para gerar a folha de pagamento                                                                                                                                                                          |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Como dono da clínica , eu quero pode  ter uma opção para se conectar com o sistema financeiro a fim de gerar a folha de pagamento de modo que possa facilitar a organização e registro de  valores referentes a remunerações dos funcionários  |
