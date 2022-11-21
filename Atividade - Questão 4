@@ -1,0 +1,81 @@
+# Questão 4 : Para cada história de usuário, descreva o mínimos de 3 critérios de aceitação usando BDD 
+## RF1 - Tela de login
+**Cenário:** Esqueci a senha
+        **Dado** que eu esqueci a senha
+        **Quando** clica na opção  “esqueceu a senha ?”
+        **Então** eu devo ver na tela um título “Redefina sua senha”
+
+**Cenário:** Recuperação de conta
+        Dado que eu estou na página recuparação de conta
+        Quando inserir o código de verificação
+        E clica em no botão “proxímo”
+        Então eu devo ver uma nova tela com o título “Alterar senha”
+
+**Cenário:** Alterar senha
+        **Dado** que eu estou na página alterar senha
+        **Quando** inserir uma nova senha
+        **E** confirmar a senha
+        **E** clica no botão “salva senha” 
+        **Então** eu devo ver uma nova tela com a mensagem “senha salva com sucesso”
+
+
+## RF2 - Gerenciamento de  Lançamento
+**Cenário:** Inserir lançamento
+        **Dado** que eu estou na página de inserir o lançamento da  agenda
+        **Quando** preencho todos os dados do lançamento 
+        **E** dou um clique na opção  “inserir lançamento ” 
+        **Então** eu devo ver na tela a seguinte mensagem “O lançamento foi concluído com sucesso”
+
+**Cenário:** Alterar lançamento
+        **Dado** que eu estou na página de alterar o lançamento da agenda
+        **Quando** modifico os dados do lançamento da agenda 
+        **E** dou um clique na opção  “alterar lançamento ”         
+        **Então** eu devo ver na tela a seguinte mensagem “A alteração do lançamento foi um sucesso
+
+**Cenário:** Confirmação da ação de deletar lançamento
+        **Dado** que eu estou na página da agenda
+        **Quando** dou um clique na opção  “deletar lançamento ” de determinado       lançamento da agenda
+        **Então** eu devo ver na tela a seguinte mensagem “Você quer mesmo deletar este lançamento” com a opção de sim ou não.
+
+## RF3 -  Gerenciar pessoa
+**Cenário:** Cadastrar pessoa
+        **Dado** que eu estou na página de cadastro da pessoa
+        **Quando** escolho a opção  "cadastrar funcionário” ou ”cadastrar cliente”
+        **Então** eu devo ver uma nova  tela com o título  “Cadastrar funcionário” ou “Cadastrar cliente” com os seus respectivos entrada de dados pessoais
+
+**Cenário:** Cadastrar funcionário
+        **Dado** que eu estou na página cadastrar funcionário
+        **Quando** preencher  todos os  dados do cadastro 
+        **E** dou um clique na opção  “cadastrar ”         
+        **Então** eu devo ver na tela a seguinte mensagem “Cadastro de funcionário  realizado com sucesso”
+
+**Cenário:** Cadastrar cliente
+        **Dado** que eu estou na página cadastrar cliente
+        **Quando** preencher  todos os  dados do cadastro 
+        **E** dou um clique na opção  “cadastrar ”         
+        **Então** eu devo ver na tela a seguinte mensagem “Cadastro de cliente  realizado com sucesso”
+
+## RF4 -  Cadastrar um novo atendimento ou procedimento clínico
+
+## RF5 -  Alterar o histórico 
+
+## RF6 -  Mover o histórico para ‘arquivo morto’ 
+
+## RF7 -  Conexão com sistema financeiro para gerar a folha de pagamento 
+**Cenário:** Cadastro de colaboradores
+        **Dado** que eu estou na página de cadastro de colaboradores
+        **Quando** preencher todos os dados dos colaboradores 
+        **E** dou um clique na opção  “cadastrar colaborador”
+        **Então** eu devo ver na tela a seguinte mensagem “Cadastro de colaborador  realizado com sucesso”
+
+**Cenário:** Cálculo automático das folhas de pagamento
+        **Dado** que eu estou na página do cálculo automático das folhas de pagamento
+        **Quando** preencher todos os dados referente ao cálculo da folha de pagamento 
+        **E** dou um clique na opção  "Automatizar cálculo ”
+        **Então** eu devo ver na tela a seguinte mensagem “Cálculo automático das folhas de pagamento  realizado com sucesso”
+
+**Cenário:** Gerenciar férias
+        **Dado** que eu estou na página de gerenciar férias
+        **Quando** preencher todos os dados referente a programação das férias
+        **E** dou um clique na opção  "gerenciar férias ”
+        **Então** eu devo ver na tela a seguinte mensagem “Gerenciamento  realizado com sucesso”
