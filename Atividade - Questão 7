@@ -1,5 +1,8 @@
 # Questão 7 : Desenha o diagrama de classes UML. Leve em consideração os relacionamentos vistos em sala
-
+## a. Cadastrar medicamentos
+classDiagram
+    Estoque "1" --> Medicamento "0..*"
+    
 ## b. Realizar cadastro de funcionario
 classDiagram
     Funcionario "1" --> Dependente "0..*"
