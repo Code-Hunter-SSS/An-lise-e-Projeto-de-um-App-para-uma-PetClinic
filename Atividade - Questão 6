@@ -1,0 +1,28 @@
+# Identifique as classes, atributos e métodos desses cenários e coloque em uma tabela
+## a. Cadastrar medicamentos
+classDiagram
+class Medicamento{
+   +Nome string
+   +Bula string
+   +Quantidade int
+}
+class Funcionario{
+   +Nome string
+}
+
+## b. Realiza cadastro de funcionário
+classDiagram
+class Funcionario{
+   +Nome string
+   +Funcao string
+}
+class {
+}
+
+## c. Gerenciar folha de pagamento
+classDiagram
+class FolhaPagamento{
+   +Salario int
+}
+class {
+}
