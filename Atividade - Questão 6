@@ -2,55 +2,66 @@
 ## a. Cadastrar medicamentos
 classDiagram
 class Medicamento{
-   +Nome string
-   +Bula string
-   +Quantidade int
+   -Nome string
+   -Bula string
+   -Quantidade int
+}
+class Estoque{
+  -Medicamentos List
+  -Quantidade int 
 }
 
 
 ## b. Realiza cadastro de funcionário
 classDiagram
 class Funcionario{
-   +Nome string
-   +Funcao string
-   +Cargo string
-   +Salario int
-   +CPF int
-   +RG  int
-   +EstadoCivil string
-   +Filiação 
-   +Data de nascimento date 
-   +Naturalidade string 
-   +Nacionalidade string
-   +Data de admissão date
-   +Dias de trabalho
+   -Nome string
+   -Funcao string
+   -Cargo string
+   -Salario int
+   -CPF int
+   -RG  int
+   -EstadoCivil string
+   -Filiação 
+   -Data de nascimento date 
+   -Naturalidade string 
+   -Nacionalidade string
+   -Data de admissão date
+   -Dias de trabalho
 }
-
+class Dependentes{
+    -Nome string
+    -Parentesco string
+}
 
 ## c. Gerenciar folha de pagamento
 classDiagram
 class FolhaPagamento{
-   +Empregado Funcionario
-   +Vencimentos int 
-   +Descontos int 
-   +Bonus int
+   -Empregado Funcionario
+   -Vencimentos int 
+   -Descontos int 
+   -Bonus int
    +calcularSalario() int
    +calcularINSS() int
 }
 class Funcionario{
-   +Nome string
-   +Funcao string
-   +Cargo string
-   +Salario int
-   +CPF int
-   +RG  int
-   +EstadoCivil string
-   +Filiação 
-   +Data de nascimento date 
-   +Naturalidade string 
-   +Nacionalidade string
-   +Data de admissão date
-   +Dias de trabalho
+   -Nome string
+   -Funcao string
+   -Cargo string
+   -Salario int
+   -CPF int
+   -RG  int
+   -EstadoCivil string
+   -Filiação 
+   -Data de nascimento date 
+   -Naturalidade string 
+   -Nacionalidade string
+   -Data de admissão date
+   -Dias de trabalho
+}
+class Dependentes{
+    -Nome string
+    -Parentesco string
 }
 
 
