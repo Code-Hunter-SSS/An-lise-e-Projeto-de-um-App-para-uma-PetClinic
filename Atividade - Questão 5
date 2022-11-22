@@ -1,0 +1,51 @@
+# Questão : Documente os seguintes Casos de Uso 
+## a. Cadastrar Medicamentos
+*Cadastrar Medicamentos*
+*Ator:* Funcionário
+*Fluxo normal:*
+1. O ator selecionar na tela a opção cadastrar
+2. O sistema carrega a tela de cadastro
+3. O ator preencher todos os dados do campo
+4. O sistema verifica se o medicamento já foi cadastrado
+5. O ator acionar a opção confirmar
+6. O sistema salva os dados do medicamento no banco e informa a seguinte mensagem “o cadastro foi realizado com sucesso”
+    
+*Extensões:*
+4a. Se o medicamento já estiver cadastrado no banco, é emitido uma mensagem informando que o medicamento já está  cadastrado
+5a.  Se  a opção confirmar for acionada, o ator terá a opção de cancelar a operação
+6a. O sistema  emitir uma  mensagem de erro, caso  os  dados forem inválidos ou estiverem faltando 
+
+## b. Realizar cadastro de Funcionários
+*Realizar cadastro de Funcionário*
+*Ator:* Funcionário
+*Fluxo normal:*
+1. O ator selecionar na tela a opção cadastrar
+2. O sistema carrega a tela de cadastro
+3. O ator preencher todos os dados do campo
+4. O sistema verifica se há divergências ou erros comprometedores
+5. O ator acionar a opção confirmar
+6. O sistema salva os dados do funcionário no banco e informa a seguinte mensagem “o cadastro foi realizado com sucesso”
+    
+*Extensões:*
+4a. Se o funcionário já estiver cadastrado no banco, é emitido uma mensagem informando que o funcionário já está  cadastrado
+5a. Se  a opção confirmar for acionada, o ator terá a opção de cancelar a operação
+6a. O sistema  emitir uma  mensagem de erro, caso  os  dados forem inválidos ou estiverem faltando 
+
+## c. Gerenciar folha de pagamento 
+*Gerenciar folha de pagamento*
+*Ator:* Funcionário
+*Fluxo normal:*
+1. O sistema apresenta a tela principal com as opções cadastrar, consultar, alterar e excluir
+2. O ator selecionar na tela a opção cadastrar
+3. O sistema carrega a tela de cadastro
+4. O ator preencher todos os dados do campo
+5. O sistema verifica se há divergências ou erros comprometedores
+6. O ator acionar a opção confirmar
+7. O sistema salva os dados do funcionário no banco e informa a seguinte mensagem “o cadastro foi realizado com sucesso”
+    
+*Extensões:*
+2a. Se o ator selecionar a opção consultar funcionário da folha, é carregado a tela de consultar com  a opção de pesquisar o funcionário para realização da consulta
+2b. Se o ator selecionar a opção alterar  funcionário da folha, é carregado a tela de alterar  com  a opção de pesquisar o funcionário para realização da alteração dos dados
+2c. Se o ator selecionar a opção excluir  funcionário da folha, é carregado a tela de excluir  com  a opção de pesquisar o funcionário para realização da eliminação do funcionário da folha de pagamento
+5a.  Se  a opção confirmar for acionada, o ator terá a opção de cancelar a operação
+7a O sistema  emitir uma  mensagem de erro, caso  os  dados forem inválidos ou estiverem faltando 
