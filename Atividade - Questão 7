@@ -1,0 +1,10 @@
+# Questão 7 : Desenha o diagrama de classes UML. Leve em consideração os relacionamentos vistos em sala
+
+## b. Realizar cadastro de funcionario
+classDiagram
+    Funcionario "1" --> Dependente "0..*"
+    
+## c. Gerenciar folha de pagamento
+classDiagram
+    FolhaDePagamento --> Funcionario
+    Funcionario "1" --> Dependente "0..*"
