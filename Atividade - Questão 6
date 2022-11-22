@@ -6,23 +6,51 @@ class Medicamento{
    +Bula string
    +Quantidade int
 }
-class Funcionario{
-   +Nome string
-}
+
 
 ## b. Realiza cadastro de funcionário
 classDiagram
 class Funcionario{
    +Nome string
    +Funcao string
+   +Cargo string
+   +Salario int
+   +CPF int
+   +RG  int
+   +EstadoCivil string
+   +Filiação 
+   +Data de nascimento date 
+   +Naturalidade string 
+   +Nacionalidade string
+   +Data de admissão date
+   +Dias de trabalho
 }
-class {
-}
+
 
 ## c. Gerenciar folha de pagamento
 classDiagram
 class FolhaPagamento{
+   +Empregado Funcionario
+   +Vencimentos int 
+   +Descontos int 
+   +Bonus int
+   +calcularSalario() int
+   +calcularINSS() int
+}
+class Funcionario{
+   +Nome string
+   +Funcao string
+   +Cargo string
    +Salario int
+   +CPF int
+   +RG  int
+   +EstadoCivil string
+   +Filiação 
+   +Data de nascimento date 
+   +Naturalidade string 
+   +Nacionalidade string
+   +Data de admissão date
+   +Dias de trabalho
 }
-class {
-}
+
+
